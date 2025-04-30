@@ -1,0 +1,76 @@
+Dataset shape: (5572, 2)
+Training set size: 4457
+Test set size: 1115
+TF-IDF transformed training set shape: (4457, 5000)
+TF-IDF transformed test set shape: (1115, 5000)
+
+Naive Bayes Results:
+Accuracy: 0.9722
+
+Confusion Matrix:
+[[966   0]
+ [ 31 118]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       966
+           1       1.00      0.79      0.88       149
+
+    accuracy                           0.97      1115
+   macro avg       0.98      0.90      0.93      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+Logistic Regression Results:
+Accuracy: 0.9704
+
+Confusion Matrix:
+[[966   0]
+ [ 33 116]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       966
+           1       1.00      0.78      0.88       149
+
+    accuracy                           0.97      1115
+   macro avg       0.98      0.89      0.93      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+Support Vector Machine Results:
+Accuracy: 0.9821
+
+Confusion Matrix:
+[[964   2]
+ [ 18 131]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       966
+           1       0.98      0.88      0.93       149
+
+    accuracy                           0.98      1115
+   macro avg       0.98      0.94      0.96      1115
+weighted avg       0.98      0.98      0.98      1115
+
+
+Random Forest Results:
+Accuracy: 0.9767
+
+Confusion Matrix:
+[[966   0]
+ [ 26 123]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.99       966
+           1       1.00      0.83      0.90       149
+
+    accuracy                           0.98      1115
+   macro avg       0.99      0.91      0.95      1115
+weighted avg       0.98      0.98      0.98      1115
